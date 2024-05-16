@@ -1,0 +1,26 @@
+Vzhľadom k tomu, že stav batérií tímov zapojených do Greenpower (okrem tímu F24 ŠPMNDAG) bude pravdepodobne hraničný, navrhujeme pre účel pretekov zakúpiť si novú sadu batérií. Tímy F2 vďaka meraniu kapacity si to môžu zistiť sami. Životnosť batérií končí a môže byť z toho následne problém pri pretekoch.
+
+Plánovali sme cez grant zakúpiť nové batérie pre všetky tímy, aby mali všetky tímy rovnaké podmienky, no žiaľ vhodný grant sme zatiaľ nenašli. Preto by sme Vám chceli oznámiť. ak chcete aby bolo Vaše auto na pretekoch konkurencieschopné, aby ste si zakúpili novú sadu batérií. 2ks
+
+Originálny typ batérií pre Greenpower  je YUASA rec 32 1ks 142,80 € (s DPH) link
+
+Lacnejšia alternatíva je Nerbo NBC 36-12I 1ks bez DPH 72,37 € (s DPH) link
+
+Túto lacnejšiu alternatívu sme konzultovali s kolegami z FEI STU, konkrétne s pánom Baťom, ktorý viedol workshop týkajúci sa batérií. Podľa zverejnených parametrov by lacnešia batéria mala byť solídnou náhradou originálu. Samozrejme však Yuassa je kvalitnejšia.
+
+Prosíme, aby sme dosiahli férovosť súťaže, požívajte počas pretekov jednu z dvoch vyššie spomenutých batérií.
+
+Ďakujeme.
+
+S pozdravom
+
+Martin Knotek 
+
+PS: Posielam ešte komentár od pána Baťu k batérii Nerbo NBC 36-12I
+V prvom rade, skúsenosti s touto konkrétnou značkou nemám, čiže neviem úplne relevantne posúdiť jej kvalitu ako takú, aj to či je spoľahlivá a bezpečná, prípadne ich konzistentnosť výroby - teda nakoľko sú rôzne kusy medzi sebou parametrovo zhodné (čo je pri Greenpower dôležité). Len vidím že je to Poľský výrobca, čo sa dá pri tej cene očakávať - https://wamtechnik.pl/en/. 
+Nemyslím si ale že to bude nejaká biedna kvalita, vyzerá to byť veľký výrobca ktorý robí veľa rôznych batérií a je na trhu etablovaný už dlhé roky. Takže by som mu pri olovených batériách na 90% dôveroval, keďže spraviť olovenú batériu nie je také náročné, ako napr. Li-Ion. 
+
+V druhom rade, čo sa týka vlastností baterky ako takej, a jej priamej zameniteľnosti 1:1 s Yuasa, vyzerá že je všetko principiálne zhodné, dokonca aj rozmery sú veľmi podobné, je to aj úplne rovnaký typ batérie. Jediné čo sa môže trochu líšiť je závit kontaktov, niekde som našiel napísané M5, niekde M6, na to si treba dať pozor. Ale kompatibilná by mala byť, aj existujúca nabíjačka bude na ňu vhodná. 
+Akurát čo sa týka parametrov, predpokladám že bude mať trochu slabšiu životnosť, a možno aj kapacitu na jedno vybitie - v tomto smere neočakávam 100% zhodu s Yuasa, aj keď na papieri to vyzerá veľmi podobne, dokonca miestami lepšie. V realite by som ale očakával rozdiel, zrejme k horšiemu, ale možno v niečom aj k lepšiemu.
+
+Aby som to zhrnul, myslím si že ak kupovať alternatívu, tak je to dobrá voľba, je to proste lacnejšia kópia tej originál, teda minimálne ako dočasné riešenie bude vhodná. Len vzhľadom na to že asi nebude mať úplne zhodné parametre/výdrž/živostnosť, tak by samozrejme bolo najlepšie ak ju budú mať úplne všetky školy, inak to nie je športovo úplne fér.

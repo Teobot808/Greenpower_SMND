@@ -1,0 +1,43 @@
+Auto-Transcript Start Time:  00:59:21, 20 Mar 2024 Stredoeurópsky èas (normálny) 
+Current Directory: "C:\Users\User\Desktop\GREENPOWER\aerodynamicky kurz\GreenPower_aerodynamika\STEP_"
+
+              Welcome to ANSYS Fluent 2024 R1
+
+              Copyright 1987-2024 ANSYS, Inc. All Rights Reserved.
+              Unauthorized use, distribution or duplication is prohibited.
+              This product is subject to U.S. laws governing export and re-export.
+              For full Legal Notice, see documentation.
+
+Build Time: Nov 22 2023 10:31:01 EST  Build Id: 10184  
+ 
+Connected License Server List:	<Shared_Web_License_Server>
+
+     --------------------------------------------------------------
+     This is a student version of ANSYS FLUENT. Usage of this product
+     license is limited to the terms and conditions specified in your ANSYS
+     license form, additional terms section.
+     --------------------------------------------------------------
+Host spawning Node 0 on machine "LAPTOP-G2TL69R8" (win64).
+
+----------------------------------------------------------------------------------
+ID    Hostname         Core  O.S.         PID    Vendor                           
+----------------------------------------------------------------------------------
+n0    LAPTOP-G2TL69R8  1/8  Windows-x64  38404  Intel(R) Core(TM) i5-9300HF      
+host  LAPTOP-G2TL69R8       Windows-x64  39816  Intel(R) Core(TM) i5-9300HF      
+
+MPI Option Selected: intel
+----------------------------------------------------------------------------------
+
+Cleanup script file is C:\\Users\\User\\Desktop\\GREENPOWER\\aerodynamicky kurz\\GreenPower_aerodynamika\\STEP_\\cleanup-fluent-LAPTOP-G2TL69R8-39816.bat
+(cx-gui-do cx-activate-tab-index "NavigationPane*Frame1(TreeTab)" 0)
+
+Posting ANSYS Product Improvement Program startup data
+Done.
+
+Meshing> (cx-gui-do cx-activate-item "Key Behavioral Changes*PanelButtons*PushButton1(OK)")
+/exit y
+
+Posting ANSYS Product Improvement Program performance data 
+Done.
+Auto-Transcript Stop Time:  00:59:43, 20 Mar 2024 Stredoeurópsky èas (normálny) 
+Total Transcript Time: 0 Minute 22 Second.
