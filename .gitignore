@@ -3,3 +3,4 @@
 *.kicad_prl
 *.kicad_pro
 *.lck
+/Datalogger/Datalogger/Datalogger-backups*
