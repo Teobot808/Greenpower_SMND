@@ -2763,6 +2763,188 @@
 				)
 			)
 		)
+		(symbol "Switch:SW_Nidec_CAS-120A1"
+			(pin_names
+				(offset 1) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 4.318 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Nidec_CAS-120A1"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*Nidec?Copal?CAS?120A*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Nidec_CAS-120A1_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -2861,16 +3043,16 @@
 		)
 	)
 	(junction
-		(at 138.43 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31128147-7ef1-4383-96ad-5da6ac5ecadf")
-	)
-	(junction
 		(at 110.49 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c218810-4f48-4653-9884-16ec35eeb08f")
+	)
+	(junction
+		(at 138.43 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4abc02b6-501b-4301-92cc-2fc136cfae2d")
 	)
 	(junction
 		(at 148.59 24.13)
@@ -2897,6 +3079,26 @@
 			(type default)
 		)
 		(uuid "02f27156-202d-4274-8ff8-381ff56a91e6")
+	)
+	(wire
+		(pts
+			(xy 106.68 31.75) (xy 104.14 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b718ae3-2b7a-4d54-9f33-ccbabdcf910b")
+	)
+	(wire
+		(pts
+			(xy 139.7 48.26) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eefa93e-9130-420b-b724-ff242fa5a659")
 	)
 	(wire
 		(pts
@@ -2980,13 +3182,13 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 36.83) (xy 88.9 34.29)
+			(xy 138.43 49.53) (xy 138.43 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "49a49344-5fc8-4784-aa5e-62fc106976e1")
+		(uuid "3d1ced3f-b706-40ff-938c-2ce080862b57")
 	)
 	(wire
 		(pts
@@ -3000,13 +3202,23 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 57.15) (xy 116.84 57.15)
+			(xy 116.84 54.61) (xy 116.84 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "661c4df0-9a5d-49d6-88ca-1951c781c598")
+		(uuid "61355194-064d-4983-a2f9-0b2cfc8c6dad")
+	)
+	(wire
+		(pts
+			(xy 86.36 24.13) (xy 54.61 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d0a533-6816-4ece-95fc-9920d32e5f67")
 	)
 	(wire
 		(pts
@@ -3030,23 +3242,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 46.99) (xy 105.41 57.15)
+			(xy 102.87 54.61) (xy 116.84 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cb9857d-8b90-4c9c-8b32-b95e731eed0b")
+	)
+	(wire
+		(pts
+			(xy 86.36 39.37) (xy 86.36 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e5c3ad4-8c15-4c33-aa30-a00fab3747b6")
-	)
-	(wire
-		(pts
-			(xy 88.9 34.29) (xy 105.41 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f7baa50-d723-401e-8588-065da87e838e")
 	)
 	(wire
 		(pts
@@ -3060,7 +3272,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 24.13) (xy 110.49 24.13)
+			(xy 44.45 19.05) (xy 110.49 19.05)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +3292,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 48.26) (xy 113.03 48.26)
+			(xy 106.68 43.18) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3100,13 +3312,23 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 53.34) (xy 138.43 38.1)
+			(xy 138.43 49.53) (xy 138.43 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8fc2fc2c-31a1-44c9-92e7-12e66c354090")
+	)
+	(wire
+		(pts
+			(xy 139.7 49.53) (xy 138.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b3f62d6-2a99-465c-8e89-9f23538ef5d7")
 	)
 	(wire
 		(pts
@@ -3130,6 +3352,26 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 46.99) (xy 114.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c1d42f-1d27-4d4b-8c9c-8157f5c76ae5")
+	)
+	(wire
+		(pts
+			(xy 92.71 52.07) (xy 92.71 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc247542-2818-4a11-b14a-b56d70f5b190")
+	)
+	(wire
+		(pts
 			(xy 135.89 24.13) (xy 148.59 24.13)
 		)
 		(stroke
@@ -3150,13 +3392,33 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 57.15) (xy 106.68 57.15)
+			(xy 92.71 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5cf6742-0156-400c-a719-39041c2ac6e5")
+	)
+	(wire
+		(pts
+			(xy 86.36 57.15) (xy 106.68 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c6cc258c-30ac-4528-9d88-9c582bbb1fe0")
+	)
+	(wire
+		(pts
+			(xy 110.49 19.05) (xy 110.49 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cadd9fdf-0009-49ba-b3ed-6e2ec327b59f")
 	)
 	(wire
 		(pts
@@ -3180,16 +3442,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 60.96) (xy 138.43 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df871202-de37-461f-93c2-1bc298b3edc1")
-	)
-	(wire
-		(pts
 			(xy 39.37 81.28) (xy 72.39 81.28)
 		)
 		(stroke
@@ -3200,7 +3452,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 59.69) (xy 44.45 24.13)
+			(xy 106.68 31.75) (xy 106.68 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e60bfa9c-6fe1-4cc2-9ed9-5bdb8aece264")
+	)
+	(wire
+		(pts
+			(xy 86.36 26.67) (xy 86.36 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0e4d89-62c2-41b7-a205-ed73cb305d6f")
+	)
+	(wire
+		(pts
+			(xy 44.45 59.69) (xy 44.45 19.05)
 		)
 		(stroke
 			(width 0)
@@ -3228,19 +3500,9 @@
 		)
 		(uuid "fba69a60-d7ad-4958-a6e1-5c778d1d7f1e")
 	)
-	(wire
-		(pts
-			(xy 113.03 53.34) (xy 113.03 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feb54ee7-a152-4ef9-8aff-33d963788196")
-	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 48.26 0)
+		(at 104.14 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3249,7 +3511,7 @@
 		(fields_autoplaced yes)
 		(uuid "129cfb90-df85-4e3e-a79d-c4466745ec8a")
 		(property "Reference" "#PWR012"
-			(at 109.22 54.61 0)
+			(at 104.14 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3258,7 +3520,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 53.34 0)
+			(at 104.14 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3266,7 +3528,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 48.26 0)
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3275,7 +3537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 48.26 0)
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,7 +3546,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 48.26 0)
+			(at 104.14 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3813,7 +4075,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 88.9 41.91 0)
+		(at 54.61 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3822,7 +4084,7 @@
 		(fields_autoplaced yes)
 		(uuid "588bf765-24fd-441d-b1a6-d25bd5670761")
 		(property "Reference" "BT2"
-			(at 92.71 40.0684 0)
+			(at 58.42 27.3684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3831,7 +4093,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 92.71 42.6084 0)
+			(at 58.42 29.9084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +4102,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 40.386 90)
+			(at 54.61 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3849,7 +4111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 40.386 90)
+			(at 54.61 27.686 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +4120,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 88.9 41.91 0)
+			(at 54.61 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +4145,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery")
-		(at 88.9 52.07 0)
+		(at 54.61 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3892,7 +4154,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a54fe4c-5d5c-4b1c-86f1-5070dc562b30")
 		(property "Reference" "BT1"
-			(at 92.71 50.2284 0)
+			(at 58.42 37.5284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +4163,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 92.71 52.7684 0)
+			(at 58.42 40.0684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3910,7 +4172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 50.546 90)
+			(at 54.61 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +4181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 88.9 50.546 90)
+			(at 54.61 37.846 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,7 +4190,7 @@
 			)
 		)
 		(property "Description" "Multiple-cell battery"
-			(at 88.9 52.07 0)
+			(at 54.61 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4367,6 +4629,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 97.79 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "947d5ec4-aee6-468b-8100-f9a8fdb4a3d1")
+		(property "Reference" "SW1"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 97.79 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 97.79 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 97.79 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 97.79 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ac5a2de-9d67-442d-9037-35963a19c073")
+		)
+		(pin "1"
+			(uuid "1152d9d4-8330-42d1-a1fb-222077c5a8a1")
+		)
+		(pin "3"
+			(uuid "f6a6191d-dab3-4c25-8d43-b26c76df3c2b")
+		)
+		(instances
+			(project ""
+				(path "/7b5544bd-f439-4d9c-89e6-9bb0e3f4b710"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 83.82 0)
 		(unit 1)
@@ -4692,7 +5025,7 @@
 	)
 	(symbol
 		(lib_id "Motor:Motor_DC")
-		(at 105.41 39.37 0)
+		(at 86.36 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4701,7 +5034,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2aa16c5-c6f4-43af-a3c2-2595aee14f09")
 		(property "Reference" "M1"
-			(at 110.49 40.6399 0)
+			(at 91.44 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +5043,7 @@
 			)
 		)
 		(property "Value" "Motor_DC"
-			(at 110.49 43.1799 0)
+			(at 91.44 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +5052,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 41.656 0)
+			(at 86.36 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 41.656 0)
+			(at 86.36 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +5070,7 @@
 			)
 		)
 		(property "Description" "DC Motor"
-			(at 105.41 39.37 0)
+			(at 86.36 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4971,7 +5304,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 57.15 0)
+		(at 54.61 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4980,7 +5313,7 @@
 		(fields_autoplaced yes)
 		(uuid "d85cefcf-0450-415e-b54b-5db9bf91b3ce")
 		(property "Reference" "#PWR01"
-			(at 88.9 63.5 0)
+			(at 54.61 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4989,7 +5322,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 62.23 0)
+			(at 54.61 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4997,7 +5330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 57.15 0)
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5006,7 +5339,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 57.15 0)
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5015,7 +5348,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 57.15 0)
+			(at 54.61 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +5518,7 @@
 	)
 	(symbol
 		(lib_id "L7812CV:L7812CV")
-		(at 125.73 50.8 180)
+		(at 127 45.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5194,7 +5527,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b051e5-de7d-4dee-b3bc-7a43005e6900")
 		(property "Reference" "U4"
-			(at 125.73 40.64 0)
+			(at 127 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +5535,7 @@
 			)
 		)
 		(property "Value" "L7812CV"
-			(at 125.73 43.18 0)
+			(at 127 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +5543,7 @@
 			)
 		)
 		(property "Footprint" "L7812CV:TO-220-3"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5220,7 +5553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +5562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5238,7 +5571,7 @@
 			)
 		)
 		(property "MF" "STMicroelectronics"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,7 +5581,7 @@
 			)
 		)
 		(property "Description_1" "\nLinear Voltage Regulator IC Positive Fixed 1 Output 1.5A TO-220\n"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5591,7 @@
 			)
 		)
 		(property "Package" "TO-220-3 STMicroelectronics"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5268,7 +5601,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5278,7 +5611,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/L7812CV/STMicroelectronics/view-part/?ref=eda"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5288,7 +5621,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +5631,7 @@
 			)
 		)
 		(property "PARTREV" "34"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +5641,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/L7812CV/STMicroelectronics/view-part/?ref=snap"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5651,7 @@
 			)
 		)
 		(property "MP" "L7812CV"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5661,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5671,7 @@
 			)
 		)
 		(property "MANUFACTURER" "STMicroelectronics"
-			(at 125.73 50.8 0)
+			(at 127 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
