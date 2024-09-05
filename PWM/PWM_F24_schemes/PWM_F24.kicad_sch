@@ -4182,6 +4182,12 @@
 		(uuid "4abc02b6-501b-4301-92cc-2fc136cfae2d")
 	)
 	(junction
+		(at 58.42 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "87251168-fab6-4c48-9fdd-01696f6d9d5f")
+	)
+	(junction
 		(at 24.13 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4192,6 +4198,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96778230-4c19-43f9-96af-fba15abd8887")
+	)
+	(junction
+		(at 137.16 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6a0bdf-8661-4b80-bfae-48fba8ba2916")
+	)
+	(junction
+		(at 72.39 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9c637d7-a49b-40bc-ba59-e5c1e1cd819e")
 	)
 	(junction
 		(at 34.29 118.11)
@@ -4248,6 +4266,16 @@
 			(type default)
 		)
 		(uuid "0625ade5-6014-4b98-b7cd-6a8ec0d2a4ec")
+	)
+	(wire
+		(pts
+			(xy 130.81 82.55) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0aa3e1f6-bc37-47f7-bfa6-e835a6d858fd")
 	)
 	(wire
 		(pts
@@ -4391,6 +4419,26 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 72.39) (xy 153.67 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "333df3d7-40e0-48c5-8326-79a7249816f7")
+	)
+	(wire
+		(pts
+			(xy 58.42 49.53) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "379649d8-d73c-4b17-8c06-b40fa14f0ccd")
+	)
+	(wire
+		(pts
 			(xy 24.13 77.47) (xy 24.13 118.11)
 		)
 		(stroke
@@ -4448,6 +4496,16 @@
 			(type default)
 		)
 		(uuid "407f8aaf-04af-4ed9-ace6-ca98be37d60f")
+	)
+	(wire
+		(pts
+			(xy 153.67 82.55) (xy 130.81 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44d7e673-15ad-4be2-b819-cd66ab1ff12f")
 	)
 	(wire
 		(pts
@@ -4551,16 +4609,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 68.58) (xy 153.67 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61355194-064d-4983-a2f9-0b2cfc8c6dad")
-	)
-	(wire
-		(pts
 			(xy 41.91 48.26) (xy 52.07 48.26)
 		)
 		(stroke
@@ -4591,7 +4639,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 68.58) (xy 153.67 68.58)
+			(xy 147.32 72.39) (xy 153.67 72.39)
 		)
 		(stroke
 			(width 0)
@@ -4621,6 +4669,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 52.07) (xy 137.16 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70f63106-75e5-4c05-850d-9d7f3f78e27c")
+	)
+	(wire
+		(pts
 			(xy 215.9 38.1) (xy 215.9 46.99)
 		)
 		(stroke
@@ -4638,6 +4696,16 @@
 			(type default)
 		)
 		(uuid "73cf05ce-cc94-4954-87fd-918f42f1b152")
+	)
+	(wire
+		(pts
+			(xy 130.81 88.9) (xy 72.39 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73f7237d-1bbf-4de7-a2e0-c4584207a98c")
 	)
 	(wire
 		(pts
@@ -4801,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 49.53) (xy 58.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae55922b-3d13-4605-aada-c04b34ce263a")
+	)
+	(wire
+		(pts
 			(xy 29.21 110.49) (xy 29.21 132.08)
 		)
 		(stroke
@@ -4851,7 +4929,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 66.04) (xy 129.54 60.96)
+			(xy 137.16 69.85) (xy 137.16 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4871,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 60.96) (xy 151.13 60.96)
+			(xy 137.16 60.96) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4911,7 +4989,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 55.88) (xy 62.23 55.88)
+			(xy 31.75 55.88) (xy 58.42 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4928,6 +5006,16 @@
 			(type default)
 		)
 		(uuid "db880978-2d47-4b76-9286-072aa9b93ead")
+	)
+	(wire
+		(pts
+			(xy 137.16 52.07) (xy 137.16 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb52e5c-3836-41f3-b55b-b2b292d63c68")
 	)
 	(wire
 		(pts
@@ -4991,7 +5079,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 86.36) (xy 72.39 95.25)
+			(xy 72.39 86.36) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -5011,6 +5099,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 88.9) (xy 72.39 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efc5a0d1-d0ab-4c56-9ca5-bd079a54f741")
+	)
+	(wire
+		(pts
 			(xy 81.28 73.66) (xy 81.28 33.02)
 		)
 		(stroke
@@ -5018,6 +5116,16 @@
 			(type default)
 		)
 		(uuid "eff36e99-389c-43cc-906d-3eb79b6d645d")
+	)
+	(wire
+		(pts
+			(xy 58.42 55.88) (xy 62.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f110de49-d257-42ce-a221-de73f61aa425")
 	)
 	(wire
 		(pts
@@ -6523,7 +6631,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Nidec_CAS-120A1")
-		(at 134.62 66.04 0)
+		(at 142.24 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6532,7 +6640,7 @@
 		(fields_autoplaced yes)
 		(uuid "947d5ec4-aee6-468b-8100-f9a8fdb4a3d1")
 		(property "Reference" "SW1"
-			(at 134.62 57.15 0)
+			(at 142.24 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,7 +6648,7 @@
 			)
 		)
 		(property "Value" "SW_Nidec_CAS-120A1"
-			(at 134.62 59.69 0)
+			(at 142.24 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6548,7 +6656,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
-			(at 134.62 76.2 0)
+			(at 142.24 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,7 +6665,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
-			(at 134.62 73.66 0)
+			(at 142.24 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6566,7 +6674,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 134.62 66.04 0)
+			(at 142.24 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8157,6 +8265,77 @@
 			(project ""
 				(path "/7b5544bd-f439-4d9c-89e6-9bb0e3f4b710"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Nidec_CAS-120A1")
+		(at 127 52.07 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2f2ee7-c900-4c12-84df-09ab1f9f9e2a")
+		(property "Reference" "SW2"
+			(at 127 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Nidec_CAS-120A1"
+			(at 127 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+			(at 127 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+			(at 127 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 127 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5c5b1f95-8191-4f92-bca2-59f132ba713c")
+		)
+		(pin "1"
+			(uuid "d19ec8ce-a72c-4cf7-879f-2521affa2687")
+		)
+		(pin "3"
+			(uuid "66979543-3020-47c9-9e8c-b70c18093639")
+		)
+		(instances
+			(project "PWM_F24"
+				(path "/7b5544bd-f439-4d9c-89e6-9bb0e3f4b710"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
